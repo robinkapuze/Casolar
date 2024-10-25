@@ -1,5 +1,5 @@
 # Casolar
-Solar car charging regulator for an ESP32, Fenecon PV System and Go-e Charger or as a basis for different system.
+Solar car charging regulator for an ESP32, Fenecon PV System and Go-e Charger or as a basis for different system. 
 
 You have a Go-e charger and have a Fenecon Energy Management System (FEMS / EMS) and want to connect them to charge your car with surplus solar power? This code gives you a good solution! If you don't have exactly these Systems, then the code may help you as a basis for your systems. 
 
@@ -27,3 +27,9 @@ If you have wishes for further or other functionality please also let me know.
 
 contact me via GitHub or mail: petereinbanschbach@gmail.com
 
+Tags:
+#Überschussladen
+#Go-e Charger
+#Fenecon
+#EMS
+#ESP32
