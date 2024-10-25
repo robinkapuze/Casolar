@@ -11,7 +11,7 @@ What you need:
 Setup:
 - All three mentioned system should be in one Network system and reachable to each other
 
-Code
+Code:
 - download code and extract the zip file
 - Open Code in the Arduino IDE
   Settings for Arduino IDE:
@@ -21,6 +21,12 @@ Code
 - Lookup both IP adresses (EMS and charger) and enter them into the code
 - Modify the code further to your personal wishes (optional)
 - Use www or AI (for example ChatGPT) to debug errors on compiling
+
+Working:
+- Power the ESP32 anywhere in Wifi reach
+- For status ubdates visit Webserver under the IP Adress of ESP32 (in your lokal network or per VPN to your lokal network)
+- In your Go-e charger App choose 1 or 3 phase loading to let the ESP regulator get in action (or set variable overwrite = 1)
+- If you experience unintentional functionality unplug the device and work with your systems as before
 
 If you modify the code further please let me and the community benifit from them two. 
 If you have wishes for further or other functionality please also let me know. 
