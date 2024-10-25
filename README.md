@@ -12,9 +12,15 @@ Setup:
 - All three mentioned system should be in one Network system and reachable to each other
 
 Code
+- download code and extract the zip file
+- Open Code in the Arduino IDE
+  Settings for Arduino IDE:
+  - ESP32 board manager URL: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+  - Select FireBeetle-ESP32 as board (or your own if you have other board)
 - Put your wifi ssid and password into the code
 - Lookup both IP adresses (EMS and charger) and enter them into the code
 - Modify the code further to your personal wishes (optional)
+- Use www or AI (for example ChatGPT) to debug errors on compiling
 
 If you modify the code further please let me and the community benifit from them two. 
 If you have wishes for further or other functionality please also let me know. 
